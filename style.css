@@ -139,7 +139,7 @@ section [class^="grid"] > * {
 /* Q8. Set the grid to have 3 columns: 1st. The minimum size of the content; 2nd. the maximum size of the content, and; 3rd. allows up to 200px of space for the content  */
 
 .grid8 {
-  /* Why does the pdf 1 have aborder ub the bottom? */
+  /* Why does the pdf have a border in the bottom? */
   display: grid;
   grid-gap: 10px 10px;
   grid-template-columns: min-content max-content fit-content(200px);
@@ -150,7 +150,7 @@ section [class^="grid"] > * {
   Commented out below that, show how you would make it so that it would stay the same even if another column was inserted  */
 
 .grid9 {
-  /* Using grid-column and span (instead of grid-column-start) already prevents it changing if a column is inserted */ /* Why is number 3 on the left in the results */
+  /* Using grid-column and span (instead of grid-column-start) already prevents it changing if a column is inserted */
   display: grid;
   grid-gap: 10px 10px;
   grid-template-columns: repeat(4, 1fr);
